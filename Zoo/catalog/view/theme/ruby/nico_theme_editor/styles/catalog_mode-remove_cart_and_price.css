@@ -1,0 +1,9 @@
+.price, .box-product .price, .product-grid .price
+{
+	display:none !important;
+}
+
+#cart, .cart, .product-info .right .cart
+{
+	display:none !important;
+}

@@ -1,0 +1,79 @@
+2015-02-05 14:42:25 - PHP Notice:  Undefined variable: filter_name in D:\zoo\catalog\view\theme\petshop1.5.2\template\common\header.tpl on line 57
+2015-02-05 14:42:37 - PHP Notice:  Undefined variable: filter_name in D:\zoo\catalog\view\theme\petshop1.5.2\template\common\header.tpl on line 57
+2015-02-05 14:42:49 - PHP Notice:  Undefined variable: filter_name in D:\zoo\catalog\view\theme\petshop1.5.2\template\common\header.tpl on line 57
+2015-02-05 15:18:45 - PHP Notice:  Undefined variable: filter_name in D:\zoo\catalog\view\theme\petshop1.5.2\template\common\header.tpl on line 57
+2015-02-05 16:23:42 - PHP Notice:  Error: Could not load language russion! in D:\zoo\system\library\language.php on line 39
+2015-02-05 16:24:01 - PHP Notice:  Error: Could not load language russion! in D:\zoo\system\library\language.php on line 39
+2015-02-05 16:24:05 - PHP Notice:  Error: Could not load language russion! in D:\zoo\system\library\language.php on line 39
+2015-02-05 16:24:17 - PHP Notice:  Error: Could not load language russion! in D:\zoo\system\library\language.php on line 39
+2015-02-05 16:25:48 - PHP Notice:  Undefined offset: 1 in D:\zoo\catalog\view\theme\blanka\template\module\cart.tpl on line 4
+2015-02-05 17:16:34 - PHP Warning:  key() expects parameter 1 to be array, null given in D:\zoo\catalog\view\theme\ruby\template\common\header.tpl on line 189
+2015-02-05 17:16:34 - PHP Warning:  key() expects parameter 1 to be array, null given in D:\zoo\catalog\view\theme\ruby\template\common\header.tpl on line 189
+2015-02-05 17:16:34 - PHP Warning:  key() expects parameter 1 to be array, null given in D:\zoo\catalog\view\theme\ruby\template\common\header.tpl on line 189
+2015-02-05 17:16:34 - PHP Warning:  key() expects parameter 1 to be array, null given in D:\zoo\catalog\view\theme\ruby\template\common\header.tpl on line 189
+2015-02-05 17:16:34 - PHP Warning:  key() expects parameter 1 to be array, null given in D:\zoo\catalog\view\theme\ruby\template\common\header.tpl on line 189
+2015-02-05 17:16:34 - PHP Warning:  key() expects parameter 1 to be array, null given in D:\zoo\catalog\view\theme\ruby\template\common\header.tpl on line 189
+2015-02-05 17:16:34 - PHP Warning:  key() expects parameter 1 to be array, null given in D:\zoo\catalog\view\theme\ruby\template\common\header.tpl on line 189
+2015-02-05 17:16:34 - PHP Warning:  key() expects parameter 1 to be array, null given in D:\zoo\catalog\view\theme\ruby\template\common\header.tpl on line 216
+2015-02-05 17:16:34 - PHP Warning:  key() expects parameter 1 to be array, null given in D:\zoo\catalog\view\theme\ruby\template\common\header.tpl on line 216
+2015-02-05 17:16:34 - PHP Warning:  key() expects parameter 1 to be array, null given in D:\zoo\catalog\view\theme\ruby\template\common\header.tpl on line 189
+2015-02-05 17:16:34 - PHP Warning:  key() expects parameter 1 to be array, null given in D:\zoo\catalog\view\theme\ruby\template\common\header.tpl on line 189
+2015-02-05 17:16:34 - PHP Warning:  key() expects parameter 1 to be array, null given in D:\zoo\catalog\view\theme\ruby\template\common\header.tpl on line 189
+2015-02-05 17:16:34 - PHP Warning:  key() expects parameter 1 to be array, null given in D:\zoo\catalog\view\theme\ruby\template\common\header.tpl on line 216
+2015-02-05 17:16:34 - PHP Warning:  key() expects parameter 1 to be array, null given in D:\zoo\catalog\view\theme\ruby\template\common\header.tpl on line 216
+2015-02-05 17:17:23 - PHP Warning:  key() expects parameter 1 to be array, null given in D:\zoo\catalog\view\theme\ruby\template\common\header.tpl on line 189
+2015-02-05 17:17:23 - PHP Warning:  key() expects parameter 1 to be array, null given in D:\zoo\catalog\view\theme\ruby\template\common\header.tpl on line 189
+2015-02-05 17:17:23 - PHP Warning:  key() expects parameter 1 to be array, null given in D:\zoo\catalog\view\theme\ruby\template\common\header.tpl on line 189
+2015-02-05 17:17:23 - PHP Warning:  key() expects parameter 1 to be array, null given in D:\zoo\catalog\view\theme\ruby\template\common\header.tpl on line 189
+2015-02-05 17:17:23 - PHP Warning:  key() expects parameter 1 to be array, null given in D:\zoo\catalog\view\theme\ruby\template\common\header.tpl on line 189
+2015-02-05 17:17:23 - PHP Warning:  key() expects parameter 1 to be array, null given in D:\zoo\catalog\view\theme\ruby\template\common\header.tpl on line 189
+2015-02-05 17:17:23 - PHP Warning:  key() expects parameter 1 to be array, null given in D:\zoo\catalog\view\theme\ruby\template\common\header.tpl on line 189
+2015-02-05 17:17:23 - PHP Warning:  key() expects parameter 1 to be array, null given in D:\zoo\catalog\view\theme\ruby\template\common\header.tpl on line 216
+2015-02-05 17:17:23 - PHP Warning:  key() expects parameter 1 to be array, null given in D:\zoo\catalog\view\theme\ruby\template\common\header.tpl on line 216
+2015-02-05 17:17:23 - PHP Warning:  key() expects parameter 1 to be array, null given in D:\zoo\catalog\view\theme\ruby\template\common\header.tpl on line 189
+2015-02-05 17:17:23 - PHP Warning:  key() expects parameter 1 to be array, null given in D:\zoo\catalog\view\theme\ruby\template\common\header.tpl on line 189
+2015-02-05 17:17:23 - PHP Warning:  key() expects parameter 1 to be array, null given in D:\zoo\catalog\view\theme\ruby\template\common\header.tpl on line 189
+2015-02-05 17:17:23 - PHP Warning:  key() expects parameter 1 to be array, null given in D:\zoo\catalog\view\theme\ruby\template\common\header.tpl on line 216
+2015-02-05 17:17:23 - PHP Warning:  key() expects parameter 1 to be array, null given in D:\zoo\catalog\view\theme\ruby\template\common\header.tpl on line 216
+2015-02-05 17:17:28 - PHP Warning:  Invalid argument supplied for foreach() in D:\zoo\catalog\view\theme\ruby\template\common\header.tpl on line 210
+2015-02-05 17:17:46 - PHP Notice:  Undefined index: Thumbflip in D:\zoo\catalog\view\theme\ruby\template\module\slideshow.tpl on line 33
+2015-02-05 17:17:46 - PHP Notice:  Undefined index: Thumbflip in D:\zoo\catalog\view\theme\ruby\template\module\slideshow.tpl on line 64
+2015-02-05 17:17:46 - PHP Warning:  Invalid argument supplied for foreach() in D:\zoo\catalog\view\theme\ruby\template\common\header.tpl on line 210
+2015-02-05 17:17:55 - PHP Warning:  Invalid argument supplied for foreach() in D:\zoo\catalog\view\theme\ruby\template\common\header.tpl on line 210
+2015-02-05 17:17:55 - PHP Notice:  Undefined variable: limits in D:\zoo\catalog\view\theme\ruby\template\product\search.tpl on line 43
+2015-02-05 17:17:55 - PHP Warning:  Invalid argument supplied for foreach() in D:\zoo\catalog\view\theme\ruby\template\product\search.tpl on line 43
+2015-02-05 17:17:55 - PHP Notice:  Undefined variable: sorts in D:\zoo\catalog\view\theme\ruby\template\product\search.tpl on line 55
+2015-02-05 17:17:55 - PHP Warning:  Invalid argument supplied for foreach() in D:\zoo\catalog\view\theme\ruby\template\product\search.tpl on line 55
+2015-02-05 17:17:59 - PHP Notice:  Undefined index: Thumbflip in D:\zoo\catalog\view\theme\ruby\template\module\slideshow.tpl on line 33
+2015-02-05 17:17:59 - PHP Notice:  Undefined index: Thumbflip in D:\zoo\catalog\view\theme\ruby\template\module\slideshow.tpl on line 64
+2015-02-05 17:17:59 - PHP Warning:  Invalid argument supplied for foreach() in D:\zoo\catalog\view\theme\ruby\template\common\header.tpl on line 210
+2015-02-05 17:19:57 - PHP Notice:  Undefined variable: no_image in D:\zoo\admin\view\template\module\nicocustomproducts.tpl on line 242
+2015-02-05 17:19:57 - PHP Notice:  Undefined variable: no_image in D:\zoo\admin\view\template\module\nicocustomproducts.tpl on line 242
+2015-02-05 17:52:45 - PHP Notice:  Use of undefined constant CHARSET - assumed 'CHARSET' in D:\zoo\catalog\view\theme\ruby\template\common\header.tpl on line 73
+2015-02-05 18:29:42 - PHP Notice:  Undefined variable: name in D:\zoo\catalog\view\theme\ruby\template\common\footer.tpl on line 118
+2015-02-05 18:32:54 - PHP Notice:  Undefined variable: name in D:\zoo\catalog\view\theme\ruby\template\common\footer.tpl on line 118
+2015-02-05 18:37:30 - PHP Notice:  A non well formed numeric value encountered in D:\zoo\system\library\image.php on line 86
+2015-02-05 18:37:30 - PHP Notice:  A non well formed numeric value encountered in D:\zoo\system\library\image.php on line 86
+2015-02-05 18:37:30 - PHP Notice:  A non well formed numeric value encountered in D:\zoo\system\library\image.php on line 97
+2015-02-05 18:37:30 - PHP Notice:  A non well formed numeric value encountered in D:\zoo\system\library\image.php on line 97
+2015-02-05 18:37:30 - PHP Notice:  Undefined variable: name in D:\zoo\catalog\view\theme\ruby\template\common\footer.tpl on line 118
+2015-02-05 18:40:45 - PHP Notice:  Undefined variable: name in D:\zoo\catalog\view\theme\ruby\template\common\footer.tpl on line 118
+2015-02-05 18:41:16 - PHP Notice:  Undefined variable: name in D:\zoo\catalog\view\theme\ruby\template\common\footer.tpl on line 118
+2015-02-05 18:42:06 - PHP Warning:  imagecreatetruecolor() expects parameter 1 to be long, string given in D:\zoo\system\library\image.php on line 86
+2015-02-05 18:42:06 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, null given in D:\zoo\system\library\image.php on line 94
+2015-02-05 18:42:06 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, null given in D:\zoo\system\library\image.php on line 97
+2015-02-05 18:42:06 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, null given in D:\zoo\system\library\image.php on line 99
+2015-02-05 18:42:06 - PHP Notice:  Undefined variable: name in D:\zoo\catalog\view\theme\ruby\template\common\footer.tpl on line 118
+2015-02-05 18:42:27 - PHP Warning:  imagecreatetruecolor() expects parameter 1 to be long, string given in D:\zoo\system\library\image.php on line 86
+2015-02-05 18:42:27 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, null given in D:\zoo\system\library\image.php on line 94
+2015-02-05 18:42:27 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, null given in D:\zoo\system\library\image.php on line 97
+2015-02-05 18:42:27 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, null given in D:\zoo\system\library\image.php on line 99
+2015-02-05 18:42:27 - PHP Notice:  Undefined variable: name in D:\zoo\catalog\view\theme\ruby\template\common\footer.tpl on line 118
+2015-02-05 18:50:47 - PHP Notice:  Undefined variable: name in D:\zoo\catalog\view\theme\ruby\template\common\footer.tpl on line 118
+2015-02-05 19:14:10 - PHP Notice:  Undefined variable: name in D:\zoo\catalog\view\theme\ruby\template\common\footer.tpl on line 118
+2015-02-05 19:14:42 - PHP Notice:  Undefined variable: name in D:\zoo\catalog\view\theme\ruby\template\common\footer.tpl on line 118
+2015-02-05 19:19:13 - PHP Notice:  Undefined variable: name in D:\zoo\catalog\view\theme\ruby\template\common\footer.tpl on line 118
+2015-02-05 19:48:26 - PHP Notice:  Undefined variable: name in D:\zoo\catalog\view\theme\ruby\template\common\footer.tpl on line 118
+2015-02-05 19:53:11 - PHP Notice:  Undefined variable: name in D:\zoo\catalog\view\theme\ruby\template\common\footer.tpl on line 118
+2015-02-05 20:10:34 - PHP Notice:  Undefined variable: copy in D:\zoo\catalog\view\theme\ruby\template\common\footer.tpl on line 118
+2015-02-05 20:10:47 - PHP Notice:  Undefined variable: copy in D:\zoo\catalog\view\theme\ruby\template\common\footer.tpl on line 118

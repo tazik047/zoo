@@ -1,0 +1,34 @@
+#logo 
+{
+	background-color:#212330;
+}
+
+
+.product_sale
+{
+	background:#323548;
+}
+
+.box-product .name, .product-grid .name
+{
+	max-width:none;
+}
+
+.box-product > div .mask, .product-grid > div .mask
+{
+	background:#323548;
+	background:rgba(50, 53, 72, 0.85);
+}
+
+div .camera_prevThumbs, div  .camera_nextThumbs,div  .camera_prev,div  .camera_next,div  .camera_commands,div  .camera_thumbs_cont
+{
+	background:#323548;
+	background:rgba(50, 53, 72, 0.85);
+}
+
+
+#menu > div > ul > li ul > li > a:hover
+{
+	color:#323548;
+	background:#fff;
+}

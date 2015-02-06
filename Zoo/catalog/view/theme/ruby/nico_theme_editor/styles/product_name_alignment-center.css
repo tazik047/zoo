@@ -1,0 +1,5 @@
+.box-product .name, .product-grid .name,
+.box-product .price, .product-grid .price 
+{
+	float:none;
+}
