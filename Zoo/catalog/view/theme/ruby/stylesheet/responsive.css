@@ -4,10 +4,18 @@
 ================================
 =   1140px #Big Screens
 ================================*/
-@media only screen and (min-width:1180px){
-
+@media only screen and (max-width:767px){
+	.sicons li {
+		border-color: #333;
+		background: #000;
+	}
 }
 
+@media only screen and (max-width:367px){
+	#header-top #search {
+		border: 1px solid rgb(144, 132, 132);
+	}
+}
 
 /*==================================
 =   Tablet Portrait
@@ -63,8 +71,8 @@
 	div.dl-menuwrapper button
 	{
 		margin-right:30px;
-		background:#323548;
-		border:2px solid #323548;
+		/*background:#323548;
+		border:2px solid #323548;*/
 	}	
 
 	div.dl-menuwrapper ul.dl-menu 
@@ -590,7 +598,7 @@
 	
 	#content
 	{
-		width:100%;
+		width:95%;
 		margin:10px auto 0;
 	}
 
@@ -1271,7 +1279,7 @@
 	
 	#content
 	{
-		width:100%;
+		width:95%;
 		margin:10px auto 0;
 	}
 

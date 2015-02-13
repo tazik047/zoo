@@ -618,6 +618,15 @@
                   <br />
                   <a onclick="image_upload('icon', 'thumb-icon');"><?php echo $text_browse; ?></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a onclick="$('#thumb-icon').attr('src', '<?php echo $no_image; ?>'); $('#icon').attr('value', '');"><?php echo $text_clear; ?></a></div></td>
             </tr>
+            
+            <tr>
+              <td><?php echo $entry_background_image; ?></td>
+              <td><div class="image"><img src="<?php echo $background_image; ?>" alt="" id="thumb-background_image" />
+                  <input type="hidden" name="config_background_image" value="<?php echo $config_background_image; ?>" id="background_image" />
+                  <br />
+                  <a onclick="image_upload('background_image', 'thumb-background_image');"><?php echo $text_browse; ?></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a onclick="$('#thumb-background_image').attr('src', '<?php echo $no_image; ?>'); $('#background_image').attr('value', '');"><?php echo $text_clear; ?></a></div></td>
+            </tr>
+            
             <tr>
               <td><span class="required">*</span> <?php echo $entry_image_category; ?></td>
               <td><input type="text" name="config_image_category_width" value="<?php echo $config_image_category_width; ?>" size="3" />

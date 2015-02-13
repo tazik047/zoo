@@ -96,6 +96,7 @@ class ControllerSettingSetting extends Controller {
 		$this->data['entry_return'] = $this->language->get('entry_return');
 		$this->data['entry_return_status'] = $this->language->get('entry_return_status');
 		$this->data['entry_logo'] = $this->language->get('entry_logo');
+		$this->data['entry_background_image'] = $this->language->get('entry_background_image');
 		$this->data['entry_icon'] = $this->language->get('entry_icon');
 		$this->data['entry_image_category'] = $this->language->get('entry_image_category');
 		$this->data['entry_image_thumb'] = $this->language->get('entry_image_thumb');
@@ -711,7 +712,19 @@ class ControllerSettingSetting extends Controller {
 		} else {
 			$this->data['logo'] = $this->model_tool_image->resize('no_image.jpg', 100, 100);
 		}
+		
+		if (isset($this->request->post['config_background_image'])) {
+			$this->data['config_background_image'] = $this->request->post['config_background_image'];
+		} else {
+			$this->data['config_background_image'] = $this->config->get('config_background_image');			
+		}
 
+		if ($this->config->get('config_background_image') && file_exists(DIR_IMAGE . $this->config->get('config_background_image')) && is_file(DIR_IMAGE . $this->config->get('config_background_image'))) {
+			$this->data['background_image'] = $this->model_tool_image->resize($this->config->get('config_background_image'), 100, 100);		
+		} else {
+			$this->data['background_image'] = $this->model_tool_image->resize('no_image.jpg', 100, 100);
+		}
+		
 		if (isset($this->request->post['config_icon'])) {
 			$this->data['config_icon'] = $this->request->post['config_icon'];
 		} else {

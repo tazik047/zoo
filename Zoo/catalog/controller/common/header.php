@@ -38,7 +38,13 @@ class ControllerCommonHeader extends Controller {
 			$this->data['logo'] = $server . 'image/' . $this->config->get('config_logo');
 		} else {
 			$this->data['logo'] = '';
-		}		
+		}	
+		
+		if ($this->config->get('config_background_image') && file_exists(DIR_IMAGE . $this->config->get('config_background_image'))) {
+			$this->data['background_image'] = $server . 'image/' . $this->config->get('config_background_image');
+		} else {
+			$this->data['background_image'] = 'http://www.zoo-baza.com.ua/themes/zoobaza/img/site-background.jpg';
+		}
 
 		$this->language->load('common/header');
 

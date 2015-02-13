@@ -53,14 +53,15 @@
   array (
     0 => 
     array (
-      'url' => 'index.php?route=pavblog/blogs',
+      'url' => 'information/news.html',
       'text' => 
       array (
-        'ro' => 'Blog',
-        'en' => 'Blog',
+        'ro' => 'News',
+        'en' => 'News',
+      	'ru' => 'Новости',
       ),
     ),
-    1 => 
+    /*1 => 
     array (
       'url' => '/index.php?route=product/category&amp;path=20_27',
       'text' => 
@@ -103,12 +104,13 @@
       array (
         'en' => 'Custom link',
       ),
-    ),
-    3 => 
+    ),*/
+    1 => 
     array (
       'text' => 
       array (
         'en' => 'Categories',
+      	'ru' => 'Категории',
       ),
       'children' => 
       array (

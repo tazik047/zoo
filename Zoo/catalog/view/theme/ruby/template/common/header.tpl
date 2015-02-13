@@ -28,7 +28,7 @@ include($_theme_include_path . 'nico_theme_editor/' . $settings_file_name);
 <?php if ($keywords) { ?>
 <meta name="keywords" content="<?php echo $keywords; ?>" />
 <?php } ?>
-<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=10.0; user-scalable=1;" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=10.0, user-scalable=1" />
 <?php if ($icon) { ?>
 <link href="<?php echo $icon; ?>" rel="icon" />
 <?php } ?>
@@ -68,9 +68,8 @@ include($_theme_include_path . 'nico_theme_editor/' . $settings_file_name);
 <?php echo $google_analytics; ?>
 </head>
 <body>
+<img src="<?php echo $background_image; ?>" id="bgimg">
 
-<!--<?php include($_theme_include_path . '/nico_theme_editor/editor.inc');?>-->
-<link href='https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:200,300,400,600,700&amp;subset=<?php echo CHARSET;?>' rel='stylesheet' type='text/css' />
 <div id="container">
   <?php if ($logo) { ?>
 	<div id="logo">
@@ -116,10 +115,9 @@ include($_theme_include_path . 'nico_theme_editor/' . $settings_file_name);
 	  <div class="button-search"></div>
   </div>
   <?php } ?>
-  
   $column_left
 
-  <div class="clearfix lang">
+  <!--<div class="clearfix lang">
   <?php if (!isset($_nico_settings['settings']['menu_language']) || $_nico_settings['settings']['menu_language'] == 'left') {?>
   <?php echo $language; ?>
   <?php } ?>
@@ -127,7 +125,7 @@ include($_theme_include_path . 'nico_theme_editor/' . $settings_file_name);
   <?php if (!isset($_nico_settings['settings']['menu_currency']) || $_nico_settings['settings']['menu_currency'] == 'left') {?>
   <?php echo $currency; ?>
   <?php } ?>
-  </div>
+  </div>-->
     
   <div id="welcome">
 	<?php if (!$logged) { ?>
