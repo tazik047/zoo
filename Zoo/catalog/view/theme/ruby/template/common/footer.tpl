@@ -115,7 +115,7 @@ if (isset($_nico_settings['settings']['first_visit_message']) && !empty($_nico_s
     <div>
 	<div id="powered" class="clearfix">
 		<span>
-			<?php echo "You store &copy; 2015";/*echo $powered*/; ?>
+			<?php echo $powered; ?>
 		</span>
 
 		<ul class="payment-icons">
