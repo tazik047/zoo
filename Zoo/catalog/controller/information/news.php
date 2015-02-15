@@ -28,9 +28,9 @@ class ControllerInformationNews extends Controller {
 		if ($news_info) {
 	  	
 			$this->document->addStyle('catalog/view/theme/default/stylesheet/news.css');
-			$this->document->addStyle('catalog/view/javascript/jquery/colorbox/colorbox.css');
+			/*$this->document->addStyle('catalog/view/javascript/jquery/colorbox/colorbox.css');
 		
-			$this->document->addScript('catalog/view/javascript/jquery/colorbox/jquery.colorbox-min.js');
+			$this->document->addScript('catalog/view/javascript/jquery/colorbox/jquery.colorbox-min.js');*/
 		
 			$this->data['breadcrumbs'][] = array(
 				'href'      => $this->url->link('information/news'),

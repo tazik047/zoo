@@ -54,8 +54,10 @@ include($_theme_include_path . 'nico_theme_editor/' . $settings_file_name);
 <!-- script type="text/javascript" src="catalog/view/javascript/jquery/ui/jquery-ui-1.8.16.custom.min.js"></script -->
 <link rel="stylesheet" type="text/css" href="catalog/view/javascript/jquery/ui/themes/ui-lightness/jquery-ui-1.8.16.custom.css" />
 <script type="text/javascript" src="catalog/view/javascript/jquery/ui/external/jquery.cookie.js"></script>
-<script type="text/javascript" src="catalog/view/theme/ruby/js/jquery.colorbox.js"></script>
+<script type="text/javascript" src="catalog/view/theme/ruby/js/jquery.colorbox-min.js"></script>
 <link rel="stylesheet" type="text/css" href="catalog/view/theme/ruby/js/colorbox.css" media="screen" />
+<!--<script type="text/javascript" src="catalog/view/javascript/jquery/jquery.fancybox-1.3.4.pack.js"></script>
+<link rel="stylesheet" type="text/css" href="catalog/view/javascript/jquery/jquery.fancybox-1.3.4.css"/>-->
 <script type="text/javascript" src="catalog/view/javascript/jquery/tabs.js"></script>
 <script type="text/javascript" src="catalog/view/theme/ruby/js/jquery.dropkick-1.0.0.js"></script>
 <script type="text/javascript" src="catalog/view/theme/ruby/js/common.js"></script>
@@ -68,7 +70,7 @@ include($_theme_include_path . 'nico_theme_editor/' . $settings_file_name);
 <?php echo $google_analytics; ?>
 </head>
 <body>
-<img src="<?php echo $background_image; ?>" id="bgimg">
+<div style="background-image:url('<?php echo $background_image; ?>');" id="bgimg"></div>
 
 <div id="container">
   <?php if ($logo) { ?>

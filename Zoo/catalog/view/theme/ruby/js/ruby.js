@@ -197,7 +197,8 @@ jQuery(document).ready(function()
 		{
 			jQuery("a.quickview").click(function (event) 
 			{
-				$.colorbox({iframe:false,width:800,height:600,href:this.href + "&ajax=true"});
+				//var t = /.jpg$/.exec(this.href)==null?:
+				$.colorbox({iframe:false,width:800,height:600,href:(/.jpg$/.exec(this.href)==null?this.href + "&ajax=true":this.href)});
 				event.stopPropagation();
 				event.stopImmediatePropagation();
 				event.preventDefault();

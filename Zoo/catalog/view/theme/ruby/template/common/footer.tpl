@@ -65,6 +65,7 @@ if (isset($_nico_settings['settings']['first_visit_message']) && !empty($_nico_s
 
 
 <div id="footer">
+	<div id="dogf"></div>
   <div>
  <?php if ($informations) { ?>
   <div class="column first">

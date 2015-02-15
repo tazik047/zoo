@@ -9,11 +9,23 @@
 		border-color: #333;
 		background: #000;
 	}
+	
+	#powered{
+		padding-left: 0px !important;
+	}
+
+	#footer{
+		background-image:none;
+	}
 }
 
 @media only screen and (max-width:367px){
 	#header-top #search {
 		border: 1px solid rgb(144, 132, 132);
+	}
+	
+	#footer>#dogf{
+		display:none;
 	}
 }
 
@@ -30,7 +42,16 @@
 	
 	#footer
 	{
-		width:98%;
+		width:100%;
+		background-position-y: -288px;
+	}
+	
+	#footer > div{
+		padding-right: 140px;
+	}
+	
+	#footer>#dogf{
+		right:-15px;
 	}
 
 	
@@ -89,8 +110,14 @@
 	#footer .column
 	{
 		padding:0px 8px;
-		width:120px;
+		width:150px;
 		min-width:100px;
+	}
+	
+	#footer .column:last-child{
+		display: block;
+		width: auto;
+		margin: 0px auto;
 	}
 
 	.ei-slider

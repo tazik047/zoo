@@ -18,7 +18,7 @@ echo $column_right;
 			<div class="news" <?php if($image) { echo 'style="min-height:' . $min_height . 'px;"'; } ?>>
 				<?php if ($image) { ?>
 					<div class="image">
-					<a href="<?php echo $popup; ?>" title="<?php echo $heading_title; ?>" class="colorbox" rel="colorbox"><img src="<?php echo $thumb; ?>" title="<?php echo $heading_title; ?>" alt="<?php echo $heading_title; ?>" id="image" /></a>
+					<a href="<?php echo $popup; ?>" title="<?php echo $heading_title; ?>" class="desc_view quickview" rel="colorbox"><img src="<?php echo $thumb; ?>" title="<?php echo $heading_title; ?>" alt="<?php echo $heading_title; ?>" id="image" /></a>
 					</div>
 				<?php } ?>
 				<h3><?php echo $heading_title; ?></h3>
@@ -76,16 +76,6 @@ echo $column_right;
 	<?php } ?>
 	<?php echo $content_bottom; ?>
 </div>
-
-<script type="text/javascript"><!--
-$(document).ready(function() {
-	$('.colorbox').colorbox({
-		overlayClose: true,
-		opacity: 0.5,
-		rel: "colorbox"
-	});
-});
-//--></script>
 
 <?php echo $new_column_left?>
 <?php echo $footer; ?>
