@@ -234,6 +234,22 @@
                 <?php echo $text_no; ?>
                 <?php } ?></td>
             </tr>
+			
+			<tr>
+              <td><?php echo $entry_bg_repeate; ?></td>
+              <td><?php if ($config_bg_repeate) { ?>
+                <input type="radio" name="config_bg_repeate" value="1" checked="checked" />
+                <?php echo $text_yes; ?>
+                <input type="radio" name="config_bg_repeate" value="0" />
+                <?php echo $text_no; ?>
+                <?php } else { ?>
+                <input type="radio" name="config_bg_repeate" value="1" />
+                <?php echo $text_yes; ?>
+                <input type="radio" name="config_bg_repeate" value="0" checked="checked" />
+                <?php echo $text_no; ?>
+                <?php } ?></td>
+            </tr>
+			
             <tr>
               <td><?php echo $entry_review; ?></td>
               <td><?php if ($config_review_status) { ?>
