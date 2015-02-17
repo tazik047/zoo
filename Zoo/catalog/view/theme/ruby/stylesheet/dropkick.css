@@ -189,6 +189,7 @@
   }
   .dk_options_inner {
     overflow: auto;
+	overflow-x:hidden;
     position: relative;
     white-space:nowrap;
   }

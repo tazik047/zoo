@@ -32,7 +32,7 @@
 /*==================================
 =   Tablet Portrait
 ===================================*/
-@media only screen and (min-width: 767px) and (max-width: 1020px) {
+@media only screen and (min-width: 767px) and (max-width: 1170px) {
 
 
 	#content
@@ -52,6 +52,8 @@
 	
 	#footer>#dogf{
 		right:-15px;
+		width:220px;
+		height: 280px;
 	}
 
 	
@@ -80,7 +82,8 @@
 		text-align:right;
 		left:auto;
 		margin-left:0px;
-		max-width:none;
+		/*max-width:none;*/
+		max-width:740px;
 		top:50px;
 	}
 	
@@ -227,7 +230,7 @@
 	
 	#container
 	{
-		width:98%;
+		width:735px;
 	}
 	/*.tab-content
 	{
@@ -317,7 +320,7 @@
 /*==================================
 =   Tablet Landscape
 ===================================*/
-@media only screen and (min-width: 1020px) and (max-width: 1024px) 
+/*@media only screen and (min-width: 1020px) and (max-width: 1024px) 
 {
 
     .jcarousel-list ,.jcarousel-list-horizontal
@@ -508,10 +511,6 @@
 	{
 		width:98%;
 	}
-	/*.tab-content
-	{
-	   overflow:visible;
-	}*/
 	.product-info  .right
 	{	
 		float:left;
@@ -596,7 +595,7 @@
 	}
 
 
-}
+}*/
 
 /*==================================
 =   Phone Portrait

@@ -118,6 +118,7 @@ $_['entry_error_display']     = 'Показывать ошибки:';
 $_['entry_error_log']         = 'Записывать ошибки:';
 $_['entry_error_filename']    = 'Файл журнала ошибок:';
 $_['entry_google_analytics']  = 'Код Google Analytics:<br /><span class="help">Войдите в Ваш <a onclick="window.open(\'http://www.google.com/analytics/\');"><u>Google Analytics аккаунт</u></a> и после настройки добавьте сюда код выданный Google Analytics.</span>';
+$_['entry_bg_repeate']        = 'Растянуть изображение на весь экран';
 
 // Error
 $_['error_warning']			  = 'Внимательно проверьте форму на ошибки!';

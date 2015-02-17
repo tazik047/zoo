@@ -642,6 +642,21 @@
                   <br />
                   <a onclick="image_upload('background_image', 'thumb-background_image');"><?php echo $text_browse; ?></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a onclick="$('#thumb-background_image').attr('src', '<?php echo $no_image; ?>'); $('#background_image').attr('value', '');"><?php echo $text_clear; ?></a></div></td>
             </tr>
+			
+			<tr>
+              <td><?php echo $entry_bg_repeate; ?></td>
+              <td><?php if ($config_bg_repeate) { ?>
+                <input type="radio" name="config_bg_repeate" value="1" checked="checked" />
+                <?php echo $text_yes; ?>
+                <input type="radio" name="config_bg_repeate" value="0" />
+                <?php echo $text_no; ?>
+                <?php } else { ?>
+                <input type="radio" name="config_bg_repeate" value="1" />
+                <?php echo $text_yes; ?>
+                <input type="radio" name="config_bg_repeate" value="0" checked="checked" />
+                <?php echo $text_no; ?>
+                <?php } ?></td>
+            </tr>
             
             <tr>
               <td><span class="required">*</span> <?php echo $entry_image_category; ?></td>

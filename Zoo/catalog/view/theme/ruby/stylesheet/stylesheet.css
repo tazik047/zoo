@@ -1570,6 +1570,7 @@ html[xmlns] .product-info .right .cart
 #column-left .box-product > div, .product-grid > div
 {
 	margin:0 15px 10px 0;
+	min-width:130px
 }
 
 
@@ -4315,7 +4316,6 @@ div#bgimg {
 	position: fixed;
 	z-index: -1;
 	top: 0;
-	background-size: 100% 100%;
 }
 
 #footer>#dogf{

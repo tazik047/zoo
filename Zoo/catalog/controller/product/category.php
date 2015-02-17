@@ -118,6 +118,7 @@ class ControllerProductCategory extends Controller {
 			$this->data['button_wishlist'] = $this->language->get('button_wishlist');
 			$this->data['button_compare'] = $this->language->get('button_compare');
 			$this->data['button_continue'] = $this->language->get('button_continue');
+			$this->data['no_image'] = $this->model_tool_image->resize('no_image.jpg', $this->config->get('config_image_product_width'), $this->config->get('config_image_product_height'));
 
 			// Set the last category breadcrumb		
 			$url = '';

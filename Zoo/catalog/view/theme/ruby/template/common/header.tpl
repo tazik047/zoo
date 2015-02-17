@@ -70,6 +70,13 @@ include($_theme_include_path . 'nico_theme_editor/' . $settings_file_name);
 <?php echo $google_analytics; ?>
 </head>
 <body>
+<?php if($bg_repeate==1){?>
+	<style>
+		#bgimg{
+			background-size:100% 100%;
+		}
+	</style>	
+<?php } ?>
 <div style="background-image:url('<?php echo $background_image; ?>');" id="bgimg"></div>
 
 <div id="container">
