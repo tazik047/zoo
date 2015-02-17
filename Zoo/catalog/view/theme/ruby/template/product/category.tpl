@@ -39,7 +39,6 @@ echo $column_right;
 			/*if (!$categories) { ?><div class="clearfix block"><?}*/?>
 	  <div class="product-filter">
 		<div class="product-compare"><a href="<?php echo $compare; ?>" id="compare-total"><?php echo $text_compare; ?></a></div>	  
-		<!-- <div class="display"><a onclick="display('list');"><img src="catalog/view/theme/ruby/image/list.png"></a> <img src="catalog/view/theme/ruby/image/grid.png"></div> -->
 		<div class="limit">
 		  <select id="limit_select" onchange="location = this.value;" tabindex="3">
 			<?php foreach ($limits as $limits) { ?>
@@ -123,7 +122,6 @@ echo $column_right;
 			}?>
 		</div>
 		<?php } ?>
-        <!--<?php /*if ($product['thumb']) { */?>-->
         <div class="image">
 			<div class="mask">
 				<div>
@@ -136,7 +134,6 @@ echo $column_right;
 				</div>
 			</div>
 			<a href="<?php echo $product['href']; ?>"><img src="<?php echo $product['thumb']?$product['thumb']:$no_image; ?>" alt="<?php echo $product['name']; ?>" /></a></div>
-        <!--<?php /*}*/ ?>-->
       <?php if ($product['price']) { ?>
       <div class="name"><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></div>
       <div class="description"><?php if (isset($product['description'])) {?><?php echo $product['description']; ?><?php } ?></div>

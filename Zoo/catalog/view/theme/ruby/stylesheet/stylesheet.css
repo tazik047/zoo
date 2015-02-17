@@ -1930,14 +1930,13 @@ html[xmlns] .product-info .right .cart
 	margin-bottom:0px;
 }
 .product-compare {
-	padding-top: 6px;
-	margin-bottom: 25px;
-	font-weight: bold;
-	display:none;
+	display: inline-block;
+	color: #100008;
+	margin-bottom: 0px;
+	vertical-align: top;
 }
 .product-compare a {
 	text-decoration: none;
-	font-weight: bold;
 }
 
 
@@ -4329,4 +4328,18 @@ div#bgimg {
 	margin: 0;
 	right: 0;
 	background-size: 100%;
+}
+
+.desc_compare{
+	position: absolute;
+	color: white;
+	background: center top;
+	background-image: url('http://schoolkhojo.in/images/compare_school_icon.png');
+	background-size: 40px 40px;
+	padding-top: 39px;
+	background-repeat: no-repeat;
+	top: 5px;
+	right: 5px;
+	font-size: 11px;
+	font-family: Montserrat;
 }
